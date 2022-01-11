@@ -1,0 +1,109 @@
+<style type="text/css"> 
+
+p {
+   font-family: Serif;
+   letter-spacing: normal;
+   color: darkblue;
+}
+
+p:nth-of-child {
+   font-style: bold;
+   
+}
+
+
+
+a {
+   color: hotpink;
+}
+
+a:hover  { 
+color: darkblue; }
+
+a:visited { 
+color: red; }
+
+body { 
+
+   max-width: 90%;
+   margin: auto;
+   background: linear-gradient(1deg, rgb(22, 135, 237), rgb(20, 55, 90));
+
+   background-image: url("https://images.unsplash.com/photo-1593391865388-dce96e6b53c0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1287&q=80");
+   background-position: bottom-right;
+   background-size: cover;
+ }
+
+ q {
+
+   font-size: 160%;
+   background-color: lightgrey;
+   border:  3px solid firebrick;
+   padding:  10px;
+   border-spacing: 40px;
+   font-style: italic;
+   margin-top: 80px;
+   margin-bottom: 80px;
+ }
+
+ .vill { 
+ border-left-color: red; }
+
+ .farm { 
+ border-left-color: green; }
+
+ header > h1 { 
+background-color: yellow;
+  }
+
+  .good {
+   text-transform: uppercase;
+   color: greenyellow;
+  }
+
+  .bad {
+   text-transform: uppercase;
+   color: red;
+  }
+
+  .white {
+   background-color: whitesmoke;
+  }
+
+  .grey {
+   background-color: lightgrey;
+  }
+
+li:first-child {
+   background-image: url("file:///Users/user/Becode2022/BXL-Johnson-7/1.The-Field/Day%2005/bien.png") ;
+   background-repeat: no-repeat;
+   padding-right: 900px;
+
+}
+
+li:nth-child(0n+2)
+{
+   background-image: url("file:///Users/user/Becode2022/BXL-Johnson-7/1.The-Field/Day%2005/mal.png") ;
+   background-repeat: no-repeat;
+   padding-right: 900px;
+
+}
+
+li:nth-child(0n+3)
+{
+   background-image: url("file:///Users/user/Becode2022/BXL-Johnson-7/1.The-Field/Day%2005/chat.png") ;
+   background-repeat: no-repeat;
+   padding-right: 900px; }
+
+
+.flexcontainer {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   align-content: space-around;
+   position: relative;
+}
+
+
+</style>
